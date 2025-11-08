@@ -54,9 +54,16 @@ df["flush"] = df["flush"].astype(int)
 fig, ax = plt.subplots()
 
 for run, d in df.groupby("Run"):
-    ax.plot(d["flush"], d["proportion passaged"], marker="o", label=f"Run {run}")
+    ax.plot(
+        d["flush"],
+        d["proportion passaged"],
+        marker="o",
+        label=f"Condition {run}",
+        linewidth=5,
+    )
 
 ax.set_xlabel("Flush")
 ax.set_ylabel("Proportion passaged")
 ax.legend()
+ax.grid(visible=True)
 plt.show()
