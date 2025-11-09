@@ -48,7 +48,7 @@ df["flush"] = df["flush"].astype(int)
 fig, ax = plt.subplots()
 
 for run, d in df.groupby("Run"):
-    ax.plot(
+    ax.step(
         d["flush"],
         d["proportion passaged"],
         marker="o",
@@ -58,6 +58,7 @@ for run, d in df.groupby("Run"):
         linestyle="--",
         label=f'{d["Parameters"].iloc[0]}, injection volume = {d["Injection volume"].iloc[0]}',
         linewidth=5,
+        where="post",
     )
 
 ax.set_xlabel("Flush", fontsize=30)
