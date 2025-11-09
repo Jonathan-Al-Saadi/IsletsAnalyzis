@@ -1,12 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Permanently changes the pandas settings
-pd.set_option("display.max_rows", None)
-pd.set_option("display.max_columns", None)
-pd.set_option("display.width", None)
-pd.set_option("display.max_colwidth", None)
-
 # Read the excel file
 df = pd.read_excel(
     "/Users/jonathan/Documents/PYTHON/islets/islets_summery_tidy.xlsx",
@@ -58,12 +52,22 @@ for run, d in df.groupby("Run"):
         d["flush"],
         d["proportion passaged"],
         marker="o",
-        label=f"Condition {run}",
+        markersize=20,
+        markeredgecolor="black",
+        markeredgewidth=2,
+        linestyle="--",
+        label=f'{d["Parameters"].iloc[0]}, injection volume = {d["Injection volume"].iloc[0]}',
         linewidth=5,
     )
 
-ax.set_xlabel("Flush")
-ax.set_ylabel("Proportion passaged")
-ax.legend()
-ax.grid(visible=True)
+ax.set_xlabel("Flush", fontsize=30)
+ax.set_ylabel("Proportion passaged", fontsize=30)
+ax.legend(fontsize=15, markerscale=0.5)
+ax.set_xticks([1, 2, 3, 4])
+ax.tick_params(labelsize=18)
+ax.grid(visible=True, linewidth=2)
+ax.spines["top"].set_visible(False)
+ax.spines["right"].set_visible(False)
+ax.spines["left"].set_linewidth(2)
+ax.spines["bottom"].set_linewidth(2)
 plt.show()
