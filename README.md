@@ -57,3 +57,28 @@ The islets where aspirated through a metal 21G needle (0.8x40mm) to a plastic sy
 The pancreatic islets that where grown (in total 35 000) had fused. This resulted in large islets that were larger than expected. Some where in the magnitude of 150 um.
 
 ![Fused cells](20251107_131943.jpg) 
+*Example of how the islets fuse* 
+
+Thus, we did not move forward with the pancreatic islets.
+
+### Stem cell aggregates
+The stem cell aggregates had a size of approx 115um. It was approximately 400 cells per aggregate. As previous experiments had started with 400 aggregates we did the same. 
+The time of handling was long (Table 1). In total it took 23 minutes until the aggregates where pushed through the device in which they could have fused as well. 
+
+> [!WARNING]
+ > Increased time --> more fusion 
+
+#### Timing of Aggregate Handling Procedure
+
+
+| Step               | Time     | Time Elapsed from Start |
+|--------------------|----------|-------------------------|
+| Start pipetting    | 13:33:00 | 0:00:00                 |
+| End pipetting      | 13:34:20 | 0:01:20                 |
+| Move to new plate  | 13:36:00 | 0:03:00                 |
+| Start counting     | 13:36:30 | 0:03:30                 |
+| End counting       | 13:43:40 | 0:10:40                 |
+| Wash start         | 13:45:00 | 0:12:00                 |
+| Count rest         | 13:48:42 | 0:15:42                 |
+| Aspirate           | 13:52:40 | 0:19:40                 |
+| Push to well       | 13:56:50 | 0:23:50                 |
