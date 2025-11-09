@@ -36,7 +36,24 @@ Pancreatic islets function as a coordinated micro-organ that regulates blood glu
 Growing pancreatic islets will allow for selecting cells without specific markers decreasing the need for immunosuppression and increasing the chance of engraftments and the need for donors.  
 Using the extroducer will allow for transplantation of these islets directly to the pancreas which will be more physiological and allow for better and real arterial blood glucose control.  
 
+
 ## Methods
+### Islets
+Pancreatic islets were cultured according to the protocol described by Lanner et al. A total of 35,000 islets were isolated and expanded, alongside 10,000 stem cell–derived aggregates. Islet size was controlled during culture, with a target diameter of approximately 100 µm. All cultures were maintained under standard humidified incubator conditions (37 °C, 5% CO₂) and routinely monitored for morphology and viability throughout the expansion period.
+### Harvest
+Islets where harvested by aspiration and then let to sedement in a falcon tube. The supernatant was removed by aspiration and the islets where resuspended in the final carrier solution. For these experiments the carrier solution where:  
 
+- PBS
+- PBS + Pyronics 1% and BSA 1% 
 
+### Counting
+Counting was performed by sedementing the islets to the middle of a dish and then taking a photo with a camera through a microscope then counting the amount. 
 
+### Injections/Passages  
+The islets where aspirated through a metal 21G needle (0.8x40mm) to a plastic syringe, the syringe that comes with the device. Before aspiration the cells were gently resuspended in the carrier solution by pipetting the volume up and down using the syringe. The islets where then passaged with high speeds to a 12 well plates and PBS was added to make couniting easier. The islets where then flushed using the carrier solution and the same volumes. 
+
+## Results  
+### Islets  
+The pancreatic islets that where grown (in total 35 000) had fused. This resulted in large islets that were larger than expected. Some where in the magnitude of 150 um.
+
+[Fused islets](/Users/jonathan/Downloads/20251107_131943.jpg) 
