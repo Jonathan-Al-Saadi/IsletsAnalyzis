@@ -30,7 +30,13 @@ Pancreatic islets function as a coordinated micro-organ that regulates blood glu
 - **Immune rejection and autoimmunity:** Transplanted islets are targeted by both alloimmune responses and the patient’s underlying type 1 diabetes autoimmunity, requiring lifelong immunosuppression.
 - **Loss of islet mass after transplantation:** A large fraction of islets die shortly after infusion due to ischemia, inflammation, and instant blood-mediated inflammatory reaction (IBMIR).
 - **Limited donor supply:** High-quality human donor pancreases are scarce, and many patients require islets from more than one donor to achieve insulin independence.
-- **Suboptimal engraftment site:** The liver (portal vein) is the standard site but provides poor oxygenation and exposes islets to inflammatory and metabolic stress.
+- **Suboptimal engraftment site:** The liver (portal vein) is the standard site but provides poor oxygenation and exposes islets to inflammatory and metabolic stress. It is also not representative of the real arterial blood glucose.
 
 ### Potential solution
+Growing pancreatic islets will allow for selecting cells without specific markers decreasing the need for immunosuppression and increasing the chance of engraftments and the need for donors.  
+Using the extroducer will allow for transplantation of these islets directly to the pancreas which will be more physiological and allow for better and real arterial blood glucose control.  
+
+## Methods
+
+
 
