@@ -56,4 +56,4 @@ The islets where aspirated through a metal 21G needle (0.8x40mm) to a plastic sy
 ### Islets  
 The pancreatic islets that where grown (in total 35 000) had fused. This resulted in large islets that were larger than expected. Some where in the magnitude of 150 um.
 
-[Fused islets](/Users/jonathan/Downloads/20251107_131943.jpg) 
+![Fused cells](/Users/jonathan/Downloads/20251107_131943.jpg) 
