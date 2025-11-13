@@ -72,6 +72,32 @@ ax.spines["right"].set_visible(False)
 ax.spines["left"].set_linewidth(2)
 ax.spines["bottom"].set_linewidth(2)
 
-plt.savefig("passaged.jpg")
+
+fig_via, ax_via = plt.subplots()
+for run, d in df.groupby("Run"):
+    ax_via.step(
+        d["flush"],
+        d["proportion_alive"],
+        marker="o",
+        markersize=20,
+        markeredgecolor="black",
+        markeredgewidth=2,
+        linestyle="--",
+        label=f'{d["Parameters"].iloc[0]}, injection volume = {d["Injection volume"].iloc[0]}',
+        linewidth=5,
+        where="pre",
+    )
+
+ax_via.set_xlabel("Flush", fontsize=30)
+ax_via.set_ylabel("Viability", fontsize=30)
+ax_via.legend(fontsize=15, markerscale=0.5, loc="upper right")
+ax_via.set_xticks([1, 2, 3, 4])
+ax_via.tick_params(labelsize=18)
+ax_via.grid(visible=True, linewidth=2)
+ax_via.spines["top"].set_visible(False)
+ax_via.spines["right"].set_visible(False)
+ax_via.spines["left"].set_linewidth(2)
+ax_via.spines["bottom"].set_linewidth(2)
+ax_via.set_xlim(right=4.2)
 
 plt.show()

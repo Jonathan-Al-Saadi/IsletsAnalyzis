@@ -114,4 +114,24 @@ Lastly we tried using pyronics and BSA in the PBS to decrese the stress on the a
 ![Figure 1](Figure_1.jpg) 
 
 **Figure 1** Proportion passaged
+![Figure 2](Figure_2.png) 
+
+## Points for improvment
+### Glass syringe:
+The aggregates frequently adhered to the plastic syringe barrel, especially during resuspension and flushing. This likely reduced the number of aggregates that actually entered the device. Switching to a glass syringe, which has a smoother inner surface and lower protein binding, may significantly decrease adhesion and improve reproducibility.
+
+### Decrease handling time:
+The total handling time before injection was approximately 23 minutes, during which the aggregates began to fuse. Fusion leads to larger clusters that are less likely to pass through the extroducer. Reducing the time from harvest to injection—ideally to under 5 minutes—should maintain aggregate size integrity and improve passage efficiency.
+
+### Improve counting accuracy:
+Manual counting using phone photographs introduces variability and makes it difficult to distinguish overlapping aggregates. Better counting methods—such as using FIJI with thresholding, automated segmentation, or a dedicated cell counter—would reduce error, allow higher throughput, and provide more reliable estimates of passage efficiency.
+
+### Use non-fused pancreatic islet cells:
+The pancreatic islets used in this experiment had already undergone significant fusion, producing clusters as large as 150 μm, far exceeding the target size. Using freshly cultured, size-controlled islets would allow a fair assessment of how true physiological islets behave during extroducer passage. This will also enable comparison between native islets and stem-cell–derived aggregates.
+
+### Optimize carrier solution properties:
+The PBS-only condition allowed for better passage compared to PBS supplemented with Pyronics and BSA, suggesting that viscosity and surface interactions may strongly influence flow behavior. Systematically testing different concentrations or alternative additives could help identify a carrier that minimizes shear stress while still preventing adhesion.
+
+### Standardize aggregate size before passage:
+The aggregates displayed some size heterogeneity, which may have influenced passage rates. Using filtration meshes or size-selection steps prior to injection would ensure a more uniform population and yield clearer interpretation of results.
 
