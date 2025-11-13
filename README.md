@@ -50,7 +50,7 @@ Islets where harvested by aspiration and then let to sedement in a falcon tube. 
 Counting was performed by sedementing the islets to the middle of a dish and then taking a photo with a camera through a microscope then counting the amount. 
 
 ### Injections/Passages  
-The islets where aspirated through a metal 21G needle (0.8x40mm) to a plastic syringe, the syringe that comes with the device. Before aspiration the cells were gently resuspended in the carrier solution by pipetting the volume up and down using the syringe. The islets where then passaged with high speeds to a 12 well plates and PBS was added to make couniting easier. The islets where then flushed using the carrier solution and the same volumes. 
+The islets where aspirated through a metal 21G needle (0.8x40mm) to a plastic syringe, the syringe that comes with the device. Before aspiration the cells were gently resuspended in the carrier solution by pipetting the volume up and down using the syringe. The islets where then passaged with high speeds to a 12 well plates and PBS was added to make counting easier. The islets where then flushed using the carrier solution and the same volumes. 
 
 ## Results  
 ### Islets  
@@ -82,3 +82,34 @@ The time of handling was long (Table 1). In total it took 23 minutes until the a
 | Count rest         | 13:48:42 | 0:15:42                 |
 | Aspirate           | 13:52:40 | 0:19:40                 |
 | Push to well       | 13:56:50 | 0:23:50                 |
+
+
+Aggregates where pushed through the syringe and calculated manually by taking a picture in the microscope with the phone. Of the 400 aggregates passed thorugh the device only 94 where passaged in the first run. The rest where found in the syringe. After resuspenion in PBS only 34 passaged. When resuspended and aggitated in the syringe 93 where passaged. Viability was high and only 2-5 dead where found in each run. 
+
+We then increased the injection volume but had the same concentration (i.e injecting 1200 aggregates in 300 ul PBS). We then saw 586 aggregates with 10 dead in the first injection and after resuspension in 300 ul 54, and next flush 11 passed but with less viability. 
+
+Lastly we tried using pyronics and BSA in the PBS to decrese the stress on the aggregates but this resulted in only 385 passaged out of 1200 injected. 
+
+#### Summary table for Injections
+
+| Parameter             | Run 1 | Run 2 | Run 3                |
+|------------------------|-------|-------|----------------------|
+| Cells injected         | 432   | 1200  | 1200                 |
+| Injection volume       | 100   | 300   | 300                  |
+| Wash volume            | 100   | 300   | 300                  |
+| Count 1 alive          | 94    | 586   | 385                  |
+| Count 1 dead           | 3     | 10    | 1                    |
+| Count 2 alive          | 34    | 54    | 92                   |
+| Count 2 dead           | 0     | 25    | 3                    |
+| Count 3 alive          | 93    | 11    | 26                   |
+| Count 3 dead           | 2     | 11    | 2                    |
+| Count 4 alive          |       | 15    | 12                   |
+| Count 4 dead           |       | 15    | 12                   |
+| Parameters             | PBS   | PBS   | PBS+Pyronics+BSA     |
+| Time from incubator    | 2002  | 364   | 340                  |
+
+
+![Figure 1](/Figure_1.jpg) 
+
+**Figure_1** Proportion passaged
+
