@@ -91,6 +91,7 @@ We then increased the injection volume but had the same concentration (i.e injec
 Lastly we tried using pyronics and BSA in the PBS to decrese the stress on the aggregates but this resulted in only 385 passaged out of 1200 injected. 
 
 #### Summary table for Injections
+**Table 1** Summary and run parameters
 
 | Parameter             | Run 1 | Run 2 | Run 3                |
 |------------------------|-------|-------|----------------------|
@@ -109,7 +110,8 @@ Lastly we tried using pyronics and BSA in the PBS to decrese the stress on the a
 | Time from incubator    | 2002  | 364   | 340                  |
 
 
-![Figure 1](/Figure_1.jpg) 
 
-**Figure_1** Proportion passaged
+![Figure 1](Figure_1.jpg) 
+
+**Figure 1** Proportion passaged
 
